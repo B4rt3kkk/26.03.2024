@@ -1,0 +1,49 @@
+					     
+					     Lekacja
+
+Temat: Super Globalne GET & POST w Kontekście zapisu, odczytu, usuwania z Bazy danych - PHP, SQL
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Super globalne tablice:
+
+	$_POST[] -> 
+	$_GET[]  -> URL http://domena.pl/index.php?znak=2
+
+	- wysywłać }		I form
+		   } Dane
+	- odbierać }		II link
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Port, XAMPP jak se chopie poradzić
+
+1-65535
+
+Uruchamiane są usługi: FTP, FTPS, IMAP, SMTP, POP3, SSH, web, socket
+
+IP serwaera localhost: 127.0.0.1, 192.168.1.6
+
+80 na tym porcie memy usługę wyświetlania strony w przeglądarce jest to usługa: apache 
+
+mysqli: 3306
+mariadb: 3306
+
+services.msc
+
+TCP IP - rola, opis, 7 warstw protokołu
+
+Zmiana portu serwewra webowego: C:\xampp\apache\conf\httpd.conf
+
+listen 8080 <- zmienna chopie to je
+
+Zmian aposrtu serwera 
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Zadanie domowe - utwórz baze danych baza ta powinna zawierać szybkie samochody (id,nazwa,pojemnośc,cena)
+
+Za pomocą spuper globalnej get pobierz lsitę szybkich samochodów które mają pojemność 100cm sześciennych po kliknięciu na hiper łącze zmienia nazwę na transformers. To samo wykonaj w przypadku posta 
+
+Dowolny css
+
